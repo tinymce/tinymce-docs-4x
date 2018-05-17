@@ -73,6 +73,8 @@ Nobody likes to see misspelled words in their content. Our Spell Checker Pro plu
   });
 ```
 
+> Quick add this config to the [Tiny Configurator](#).
+
 ### Advanced config options used in this demo
 
 ```javascript
@@ -145,6 +147,8 @@ Nobody likes to see misspelled words in their documents. Our Spell Checker Pro p
       ]
   });
 ```
+
+> Quick add this config to the [Tiny Configurator](#).
 
 ### Advanced config options used in this demo
 
@@ -258,6 +262,8 @@ Nobody likes to see misspelled words in their emails. Our Spell Checker Pro plug
   });
 ```
 
+> Quick add this config to the [Tiny Configurator](#).
+
 ### Advanced config options used in this demo
 
 ```javascript
@@ -364,6 +370,8 @@ tinymce.init({
   powerpaste_html_import: 'clean'
 });
 ```
+
+> Quick add this config to the [Tiny Configurator](#).
 
 ### Advanced config options used in this demo
 

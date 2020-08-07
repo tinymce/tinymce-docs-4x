@@ -22,6 +22,9 @@ import tinymce from 'tinymce/tinymce';
 // A theme is also required
 import 'tinymce/themes/modern/theme';
 
+// The skin is also required
+import 'tinymce/skins/ui/oxide/skin.css';
+
 // Any plugins you want to use has to be imported
 import 'tinymce/plugins/paste';
 import 'tinymce/plugins/link';
@@ -43,6 +46,9 @@ var tinymce = require('tinymce/tinymce');
 
 // A theme is also required
 require('tinymce/themes/modern/theme');
+
+// The skin is also required
+require('tinymce/skins/ui/oxide/skin.css');
 
 // Any plugins you want to use has to be imported
 require('tinymce/plugins/paste');

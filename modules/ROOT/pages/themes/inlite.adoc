@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Inlite theme
 :description: Theme that renders a light weight UI for inline editing.
 :keywords: theme inlite

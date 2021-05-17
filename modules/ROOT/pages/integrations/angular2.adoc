@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Angular Integration
 :description: Using TinyMCE together with Angular 2+ with the @tinymce/tinymce-angular component
 :keywords: integration integrate angular2 angular4 angular6 angular3 angular5 angularjs

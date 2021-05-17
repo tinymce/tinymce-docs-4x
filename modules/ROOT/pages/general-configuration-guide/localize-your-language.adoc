@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = 10. Localize TinyMCE
 :description: Localize TinyMCE with global language capabilities.
 :keywords: internationalization localization languages

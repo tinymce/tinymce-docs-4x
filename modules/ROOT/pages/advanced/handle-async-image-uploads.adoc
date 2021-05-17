@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Handle Async Image Uploads
 :description: How to manage asynchronous image uploads with jQuery, CORS.
 :description_short: How to manage asynchronous image uploads.

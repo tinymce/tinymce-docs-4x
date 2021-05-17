@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Drive plugin
 :description: Cloud-based file and image management for TinyMCE.
 :keywords: tinydrive storage media tiny drive

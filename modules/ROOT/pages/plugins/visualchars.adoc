@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Visual Characters Plugin
 :controls: toolbar button, menu item
 :description: See invisible characters like non-breaking spaces.

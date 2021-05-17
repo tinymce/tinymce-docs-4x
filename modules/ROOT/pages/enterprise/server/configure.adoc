@@ -1,6 +1,5 @@
 :rootDir: ../../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Configure
 :description: Configure the Enterprise server-side components.
 :keywords: enterprise tinymcespellchecker spell check checker pro pricing imagetools server configuration configure

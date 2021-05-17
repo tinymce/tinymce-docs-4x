@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Editor Command Identifiers
 :description: The complete list of exposed editor commands.
 :description_short: Complete list of editor commands.

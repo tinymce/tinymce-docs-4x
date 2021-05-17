@@ -1,6 +1,5 @@
 :rootDir: ../
 :partialsDir: {rootDir}partials/
-:imagesDir: {rootDir}images/
 = Mentions
 :description: Mentions brings social sharing to TinyMCE.
 :keywords: atmention mention

@@ -73,6 +73,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bundler (= 1.17.1)
   jekyll (~> 3.9.0)
   jekyll-last-modified-at (~> 1.0)
   jekyll-redirect-from (~> 0.13.0)
@@ -83,4 +84,4 @@ DEPENDENCIES
   redcarpet (~> 3.5.1)
 
 BUNDLED WITH
-   1.17.3
+   1.17.1

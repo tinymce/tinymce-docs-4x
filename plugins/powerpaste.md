@@ -18,7 +18,7 @@ To paste clipboard content as plain text, users can click the "Paste As Text" to
 
 If you configure **PowerPaste** to allow local images (see the `powerpaste_allow_local_images` setting below), then images copied from Microsoft Word and other sources will appear in TinyMCE as Base64 encoded images. You can have TinyMCE automatically upload Base64 encoded images for reverting back to a standard image as documented on the following page:
 
-https://www.tinymce.com/docs/advanced/handle-async-image-uploads/
+[Handle Async Image Uploads]({{site.baseurl}}/advanced/handle-async-image-uploads/)
 
 >***Note:*** _PowerPaste (when configured to allow local images) will import images from pasted Microsoft Word/Excel content.  When doing this, **PowerPaste** extracts Base64 encoded images from the clipboard.  Images larger than approximately 8.5MB may fail to import based on technical limitations of web browsers._
 
@@ -64,7 +64,7 @@ tinymce.init({
     'powerpaste': 'http://www.server.com/application/external_plugins/powerpaste/plugin.js'
   }
 });
-``` 
+```
 
 
 ## Configuration Options
@@ -99,7 +99,7 @@ When set to true Base 64 encoded images using a data URI in the copied content w
 
 The default is `true`.
 
->***Note:*** *If you configure* ***PowerPaste*** *to allow local images you can have TinyMCE automatically upload Base64 encoded images for conversion back to a standard image as documented on the following page: https://www.tinymce.com/docs/advanced/handle-async-image-uploads*
+>***Note:*** *If you configure* ***PowerPaste*** *to allow local images you can have TinyMCE automatically upload Base64 encoded images for conversion back to a standard image as documented on the following page: [Handle Async Image Uploads]({{site.baseurl}}/advanced/handle-async-image-uploads/)*
 
 
 ##### Example
@@ -178,4 +178,4 @@ tinymce.get('editorID').('PastePostProcess', function(fragment) {
 
 ## Buy TinyMCE PowerPaste
 
-Start with our [dedicated product page](https://about.tiny.cloud/products/powerpaste/) to see our flexible pricing options. OEM and enterprise customers should [contact sales directly](https://www.tinymce.com/pricing/).
+Start with our [dedicated product page](https://about.tiny.cloud/products/powerpaste/) to see our flexible pricing options. OEM and enterprise customers should [contact sales directly]({{site.pricingpage}}).

@@ -19,7 +19,7 @@ However, TinyMCE skins are much easier to make thanks to the TinyMCE Skin Creato
 
 Unlike TinyMCE themes, which affect much more than just the editor's user interface, skins only change the editor's appearance.
 
-If you would like to create your skins the best (and easiest) place to start is the [TinyMCE Skin Creator](http://skin.tinymce.com/).
+If you would like to create your skins the best (and easiest) place to start is the [TinyMCE Skin Creator]({{site.skintool}}).
 
 Once you've created your skin, download it, unzip the file, and place it in the `js/skins `folder of your TinyMCE install. Then activate it using code similar to this:
 
@@ -32,7 +32,7 @@ tinymce.init({
 
 If you are going to roll your skins, the name of the skin should match the name of the folder within the skins directory (typically `tinymce/js/skins`). If the specified skin is not found, TinyMCE does not load.
 
-> Pro tip. Many developers confuse the difference between TinyMCE themes and skins. You'll often see the term "theme" used by developers when they mean "skin". 
+> Pro tip. Many developers confuse the difference between TinyMCE themes and skins. You'll often see the term "theme" used by developers when they mean "skin".
 
 ### Changing editor height and width
 

@@ -7,11 +7,11 @@ description: Introducing skin creation, less and icon modification.
 keywords: create creator skin icomoon
 ---
 
-Creating a new skin will allow you to alter the appearance of TinyMCE. If you would like to create your skin, there are two ways of doing so. The simplest way is to use the [TinyMCE Skin Creator](http://skin.tinymce.com/) tool. The other option is to manually modify `less` files and build them using the node js build process. Since the skin creator is pretty self-explanatory, we will focus on the manual method in this tutorial.
+Creating a new skin will allow you to alter the appearance of TinyMCE. If you would like to create your skin, there are two ways of doing so. The simplest way is to use the [TinyMCE Skin Creator]({{site.skintool}}) tool. The other option is to manually modify `less` files and build them using the node js build process. Since the skin creator is pretty self-explanatory, we will focus on the manual method in this tutorial.
 
 ## Preparation
 
-To manually build the `less` files you will have to download the [TinyMCE development package](https://www.tinymce.com/download/). This package contains the source code for the entire TinyMCE project and the `less` files needed to skin the editor or use the [GitHub version](https://github.com/tinymce/tinymce/). You will also need to install [Node.js](https://nodejs.org) and the NPM node module dependencies needed for the build process. This [readme.md](https://github.com/tinymce/tinymce/blob/master/readme.md) file explains how to build TinyMCE manually.
+To manually build the `less` files you will have to download the [TinyMCE development package]({{site.get-tiny}}). This package contains the source code for the entire TinyMCE project and the `less` files needed to skin the editor or use the [GitHub version](https://github.com/tinymce/tinymce/). You will also need to install [Node.js](https://nodejs.org) and the NPM node module dependencies needed for the build process. This [readme.md](https://github.com/tinymce/tinymce/blob/master/readme.md) file explains how to build TinyMCE manually.
 
 ## Building skin.min.css from less files
 

@@ -135,7 +135,7 @@ tinymce.init({
 
 **Example of an array with links and sub-menu**
 
-Since TinyMCE 4.0.27 it is now possible to have sub-menus within the link list. A TinyMCE Fiddle [example of nested sub-menus](http://fiddle.tinymce.com/wleaab) is available.
+Since TinyMCE 4.0.27 it is now possible to have sub-menus within the link list. A TinyMCE Fiddle [example of nested sub-menus](http://{{site.tinymce_fiddle}}/wleaab) is available.
 
 ```js
 tinymce.init({

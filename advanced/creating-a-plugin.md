@@ -75,7 +75,7 @@ tinymce.PluginManager.add('example', function(editor, url) {
       // Open window with a specific url
       editor.windowManager.open({
         title: 'TinyMCE site',
-        url: 'https://www.tinymce.com',
+        url: '{{site.homepage}}',
         width: 800,
         height: 600,
         buttons: [{

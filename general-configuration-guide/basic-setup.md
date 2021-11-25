@@ -68,7 +68,7 @@ tinymce.init({
 });
 ```
 
-> For more information on the differences between regular and inline editing modes see the [Using TinyMCE Inline](../use-tinymce-inline/) page. 
+> For more information on the differences between regular and inline editing modes see the [Using TinyMCE Inline](../use-tinymce-inline/) page.
 
 
 ## Plugin configuration
@@ -243,7 +243,7 @@ First, we want to select only the `textarea` with the id `myTextarea`.
 selector: '#myTextarea',
 ```
 
-We next choose a theme, in this case, the modern theme (which is the default theme, so this isn't needed. You can, however, create your own themes using the [TinyMCE Skin Creator](http://skin.tinymce.com/)).
+We next choose a theme, in this case, the modern theme (which is the default theme, so this isn't needed. You can, however, create your own themes using the [TinyMCE Skin Creator]({{site.skintool}})).
 
 > ```js
 theme: 'modern',

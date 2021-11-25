@@ -20,7 +20,7 @@ Download the [Tinymce 4 language pack](/language/tinymce4x_languages.zip) (i18n)
 
 ### Step 2
 
-Unpack the language `js` file(s) into your `path/to/tinymce/langs/` folder. 
+Unpack the language `js` file(s) into your `path/to/tinymce/langs/` folder.
 
 > Important: If you don't put the language pack in `langs/`, the language settings will not work unless you use the [language_url]({{ site.baseurl }}/configure/localization/#language_url) configuration option.
 
@@ -37,7 +37,7 @@ Confirm that the language has been set successfully by loading TinyMCE.
 
 We have prepared a code snippet below that would set TinyMCE's language to Chinese and text directionality right-to-left.
 
-If you want to try it for yourself, [download the TinyMCE 4 language pack](/language/tinymce4x_languages.zip), unzip the file and place the ```zh_CN.js``` file in your ```tinymce/lang``` folder. If you don't have TinyMCE setup, you can grab a copy from our [downloads page](https://www.tinymce.com/download/). Follow the [Self-hosted install instructions]({{ site.baseurl }}/general-configuration-guide/advanced-install/#sdkinstall) if you're not familiar with setting up TinyMCE locally.
+If you want to try it for yourself, [download the TinyMCE 4 language pack](/language/tinymce4x_languages.zip), unzip the file and place the ```zh_CN.js``` file in your ```tinymce/lang``` folder. If you don't have TinyMCE setup, you can grab a copy from our [downloads page]({{site.get-tiny}}). Follow the [Self-hosted install instructions]({{ site.baseurl }}/general-configuration-guide/advanced-install/#sdkinstall) if you're not familiar with setting up TinyMCE locally.
 
 ```html
 <!DOCTYPE html>

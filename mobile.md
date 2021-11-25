@@ -17,14 +17,14 @@ Configuration is relatively easy, so let's get started.
 
 ## How to set up mobile
 
-In the snippet below, we use TinyMCE Cloud to instantiate the editor. If you're using the Self-hosted package, replace `cloud.tinymce.com/dev/` with your path to `tinymce.min.js`.
+In the snippet below, we use TinyMCE Cloud to instantiate the editor. If you're using the Self-hosted package, replace `cdn.tiny.cloud/1/no-api-key/tinymce/4/` with your path to `tinymce.min.js`.
 
 
 ```html
 <!DOCTYPE html>
 <html>
 <head><!-- Get TinyMCe Cloud -->
-  <script src="https://cloud.tinymce.com/dev/tinymce.min.js"></script>
+  <script src="{{site.cdnurl}}"></script>
   <script>tinymce.init({
       selector:'textarea',
       theme: 'modern',
@@ -37,10 +37,10 @@ In the snippet below, we use TinyMCE Cloud to instantiate the editor. If you're 
 </html>
 ```
 
-> Note:  If you're new to TinyMCE Cloud, [this post](https://go.tinymce.com/blog/how-to-get-tinymce-cloud-up-in-less-than-5-minutes/) will help you get the editor instantiated quickly.
+> Note:  If you're new to TinyMCE Cloud, [this post]({{site.blog}}how-to-get-tinymce-cloud-up-in-less-than-5-minutes/) will help you get the editor instantiated quickly.
 
 > Tip: Don't forget to add your API key to the `init`:
-`<script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=your_API_key"></script>`
+`<script src="{{site.cdnurl}}?apiKey=your_API_key"></script>`
 
 If you have experience using TinyMCE, you'll see in the above example that we added a new parameter called `mobile`. To use mobile mode on touch-only devices, add this to your editor settings, specifying the `theme` as `mobile`:
 

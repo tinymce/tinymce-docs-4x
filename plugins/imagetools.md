@@ -90,7 +90,7 @@ tinymce.init({
 
 Another way of getting images across domains is using local server-side proxy. Proxy is basically a script, that will retrieve remote image and pipe it back to TinyMCE, as if it was local. Example of such proxy (written in PHP) can be found below.
 
-[TinyMCE Enterprise](https://www.tinymce.com/pricing/) subscription also includes proxy service written in Java. Check [Install Server-side Components]({{ site.baseurl }}/enterprise/server/) guide for details.
+[TinyMCE Enterprise]({{site.pricingpage}}) subscription also includes proxy service written in Java. Check [Install Server-side Components]({{ site.baseurl }}/enterprise/server/) guide for details.
 
 **Note:** `imagetools_proxy` is **not** required when enabling this plugin via [TinyMCE Cloud]({{ site.baseurl }}/cloud-deployment-guide/editor-and-features/)
 

@@ -6,7 +6,7 @@ description: TinyMCE Cloud customers, you'll be up and running in less than 5 mi
 keywords: tinymce cloud script textarea apiKey
 ---
 
-If you’re already comfortable hosting and maintaining [TinyMCE Community edition](https://www.tinymce.com/download/), or you’re running a web application where you have no control over the TinyMCE instance, you’re still able to load our premium TinyMCE plugins from TinyMCE Cloud. Think of this as a hybrid deployment.
+If you’re already comfortable hosting and maintaining [TinyMCE Community edition]({{site.get-tiny}}), or you’re running a web application where you have no control over the TinyMCE instance, you’re still able to load our premium TinyMCE plugins from TinyMCE Cloud. Think of this as a hybrid deployment.
 
 Signing up for a free API key entitles you to the premium [Image Tools]({{  site.baseurl }}/plugins/imagetools/) plugin, with a provided cloud image proxy server already configured. You can purchase our Premium Plugins at any time once your API key is set up.
 
@@ -15,7 +15,7 @@ Signing up for a free API key entitles you to the premium [Image Tools]({{  site
 Within your webpage, after you’ve specified your script tag to load the TinyMCE editor code, you’ll then need to add the following new script:
 
 ```js
-<script src="https://cloud.tinymce.com/stable/plugins.min.js?apiKey=your_API_key"></script>
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/4/plugins.min.js?apiKey=your_API_key"></script>
 ```
 
 ## Step 2: Specify purchased TinyMCE plugins and toolbar buttons
@@ -47,7 +47,7 @@ Here is a complete example, whereby:
 <html>
    <head>
       <script src="https://your_server/tinymce.min.js"></script>
-      <script src="https://cloud.tinymce.com/stable/plugins.min.js?apiKey=your_API_key"></script>
+      <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/4/plugins.min.js?apiKey=your_API_key"></script>
    </head>
    <body>
       <textarea><p>test textarea</p></textarea>

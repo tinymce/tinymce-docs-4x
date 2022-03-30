@@ -10,7 +10,7 @@ This plugin makes possible to run majority of old 3.x plugins on the latest Tiny
 
 **Installation Instructions**
 
-1. Download TinyMCE [development package](https://www.tinymce.com/download/).
+1. Download TinyMCE [development package]({{site.get-tiny}}).
 2. Copy `compat3x` plugin to your site.
 3. Copy `utils` and `tiny_mce_popup.js` to the same directory, where your `tinymce.min.js` resides.
 4. Load `compat3x` after TinyMCE core.

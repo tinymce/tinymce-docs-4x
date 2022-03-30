@@ -4,20 +4,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ page.meta_description | or:page.description }}">
     <meta name="keywords" content="{{ page.meta_keywords | or:site.default_meta_keywords }}">
-    <meta property="og:og:site_name" content="TinyMCE.com">
-    <meta property="og:title" content="TinyMCE | {{ page.meta_title | or:page.title }}">
+    <meta property="og:og:site_name" content="tiny.cloud">
+    <meta property="og:title" content="TinyMCE Docs | {{ page.meta_title | or:page.title }}">
     <meta property="og:type" content="website">
     <meta property="og:description" content="{{ page.meta_description | or:page.description }}">
     <meta property="og:image" content="https://www.tiny.cloud/images/tiny-v5-og-image.png">
 
     <title>TinyMCE | {{ page.meta_title | or:page.title }}</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;" />
     <link href="{{ site.shared_baseurl }}{{ site.baseurl }}/css/common.min.css" rel="stylesheet">
-    <link href="{{ site.shared_baseurl }}{{ site.baseurl }}/css/docs.min.css" rel="stylesheet">
-    <link href="//fast.fonts.net/cssapi/5d4ae438-4aca-4c75-8249-d9486d12b12e.css" rel="stylesheet">
 
-    {% include_remote {{ site.origin }}/_docs/head.html css="head > *" %}
+    {% include_remote {{ site.origin }}/_docs/head.html %}
 
     {% assign tinymce_script_tag_included = false %}
 
@@ -42,6 +40,10 @@
 
         .codepen_tabs {
             margin-bottom: 1em;
+        }
+        :focus {
+          box-shadow: inherit;
+          font-weight:inherit;
         }
     </style>
 

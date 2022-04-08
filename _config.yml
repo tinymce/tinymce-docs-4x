@@ -24,6 +24,7 @@ exclude:
   - node_modules
   - .idea
   - .git
+  - .github
 
 markdown: redcarpet
 

@@ -18,7 +18,7 @@ Drive presents a cloud-based asset management and storage solution that provides
 
 If you would like to try out Drive and our Cloud-delivered editor, the first step is to create a free [Tiny account](https://www.tiny.cloud/download/).  When you create an account, you are assigned an API key, which is required for the implementation of Drive.
 
-> The API key is also provisioned with a free 30-day trial of all of our [premium plugins](https://apps.tiny.cloud/product-category/tiny-cloud-extensions/), with no credit card information or commitment required.
+> The API key is also provisioned with a free 14-day trial of all of our [premium plugins](https://apps.tiny.cloud/product-category/tiny-cloud-extensions/), with no credit card information or commitment required.
 
 #### Configuring the Editor for Drive
 

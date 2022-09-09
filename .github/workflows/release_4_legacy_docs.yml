@@ -47,6 +47,7 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: 'us-east-1'
 
     - name: (deploy) Invalidate Staging Cache
       run: aws cloudfront create-invalidation --distribution-id E7DUUPEI08HNW --paths "/docs-4x/*"
@@ -62,6 +63,7 @@ jobs:
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.PRODUCTION_AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.PRODUCTION_AWS_SECRET_ACCESS_KEY }}
+        AWS_DEFAULT_REGION: 'us-east-1'
 
     - name: (deploy) Invalidate Production Cache
       run: aws cloudfront create-invalidation --distribution-id E3LFU502SQ5UR --paths "/docs-4x/*"
